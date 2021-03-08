@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Css Exercises</title>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <h2>Topics</h2>
+            <ul class="content-ul">
+                <a href='/'>
+                    <li>Flex</li>
+                </a>
+                <a href='/postioning.html'>
+                    <li>Positioning</li>
+                </a>
+                <a href='/grids.html'>
+                    <li>Grids</li>
+                </a>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Flex</h1>
+            <!-- Exercise-1 -->
+            <div class="exercise">
+
+                <div class="question">
+                    <h2> ex01: put three divs horizontally </h2>
+                    <div>
+                        I am Div 1
+                    </div>
+                    <div>
+                        I am Div 2
+                    </div>
+                    <div>
+                        I am Div 3
+                    </div>
+                </div>
+
+                <div class="answer">
+                    <h2>Answer. display: flex</h2>
+                    <div class="show-flex">
+                        <div>
+                            I am Div 1
+                        </div>
+                        <div>
+                            I am Div 2
+                        </div>
+                        <div>
+                            I am Div 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exercise-2  and 3-->
+            <div class="exercise">
+
+                <div class="question">
+                    <h2> ex02: understanding flex axis and live ex03: practice align </h2>
+                    <img src="Images/Untitled.png" class="images" />
+                    <div>Take a parent div and three child divs. parent should align all children to center. However,
+                        the third child needs to go end of flex.</div>
+                </div>
+
+                <div class="answer">
+                    <h2>Answer. align-self: flex-end(child-div) and justify-content: center(parent-div)</h2>
+                    <!-- Parent div -->
+                    <div class="answer-2">
+                        <!-- Child divs -->
+                        <div>
+                            I am Div 1
+                        </div>
+                        <div>
+                            I am Div 2
+                        </div>
+                        <div class="end-div">
+                            I am Div 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exercise-4-->
+            <div class="exercise">
+
+                <div class="question">
+                    <h2> ex04: let's create a card (Understand flex-direction) ex05: justify-content ex06: shrink
+                        grow ex07: add a thumbnail image to the card and ex08: make the cards wrap</h2>
+                    <div>
+                        Q4. Create a div with class as 'card'. Add p tag with some text and primary button. Both p tag
+                        and
+                        button should come in vertical direction.
+                        Q5.When there's more text in one card you would want the primary buttons to align.
+                        Q6.Flex grow and shrink when heading is added.
+                        Q7. Add a thumbnail image to card
+                        Q7.Flex-Wrap
+                    </div>
+                </div>
+
+                <div class="answer">
+                    <h2>Answer. flex-direction:column , justify-content: space-between on card , flex-grow: 1 on p
+                        tag and flex-wrap: wrap for wrapping</h2>
+                    <!-- Parent div -->
+                    <div class="card-parent">
+                        <div class="card">
+                            <h5>I am heading</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro omnis fugiat quidem
+                                maxime
+                                sunt asperiores ipsum culpa dolore necessitatibus consequuntur laudantium deleniti fuga
+                                odio, at corrupti fugit ducimus cupiditate similique.</p>
+                            <button>Primary button</button>
+                        </div>
+                        <div class="card">
+                            <h5>I am heading</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro omnis fugiat quidem
+                                maxime
+                                sunt asperiores ipsum culpa .</p>
+                            <button>Primary button</button>
+                        </div>
+                        <!-- Flex-grow and shrink -->
+                        <div class="card">
+                            <h5>I am heading</h5>
+                            <p class="card-heading-grow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+                                omnis fugiat quidem
+                                maxime
+                                sunt asperiores ipsum culpa .</p>
+                            <button>Primary button</button>
+                        </div>
+                        <div class="card">
+                            <h5>I am heading</h5>
+                            <img src="https://via.placeholder.com/150" />
+                            <p class="card-heading-grow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+                                omnis fugiat quidem
+                                maxime
+                                sunt asperiores ipsum culpa .</p>
+                            <button>Primary button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

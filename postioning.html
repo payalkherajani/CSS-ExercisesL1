@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <h2>Topics</h2>
+            <ul class="content-ul">
+                <a href='/index.html'>
+                    <li>Flex</li>
+                </a>
+                <a href='/postioning.html'>
+                    <li>Positioning</li>
+                </a>
+                <a href="/grids.html">
+                    <li>Grids</li>
+                </a>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Positions</h1>
+            <!-- Exercise-1 -->
+            <div class="exercise">
+                <div class="question">
+                    <h2>ex01: superscript component</h2>
+                </div>
+                <div class="answer">
+                    <h3 class="heading">I am heading <span class="superscript">22</span></h3>
+                </div>
+            </div>
+            <!-- Exercise-2 -->
+            <div class="exercise">
+                <div class="question">
+                    <h2>ex02: snackbar component/class</h2>
+                </div>
+                <div class="answer">
+                    <p class="notification">You got a new email! Notification</p>
+                </div>
+            </div>
+            <!-- Exercise-3 -->
+            <div class="exercise">
+                <div class="question">
+                    <h2>Create a modal. Use fixed positioning for that.</h2>
+                </div>
+                <div class="answer">
+                    <button onclick="document.getElementById('modal').style.display='flex'">Show Modal</button>
+                    <div class="modal" id="modal">
+                        <p>Hello! My name is Modal! Good to see you</p>
+                        <div onClick="document.getElementById('modal').style.display='none'">X</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exercise-4 -->
+            <div class="exercise">
+                <div class="question">
+                    <h2>Create a floating action button</h2>
+                </div>
+                <div class="answer-position-div">
+                    <button class="floating-button"> + </button>
+                </div>
+            </div>
+
+            <!-- Exercise-5 -->
+            <div class="exercise">
+                <div class="question">
+                    <h2>Create a badge class which would work on card and place a NEW or DISCOUNT on image.</h2>
+                </div>
+                <div class="answer">
+                    <div class="badge-div">Discount<span class="badge">NEW</span></div>
+                </div>
+            </div>
+
+            <!-- Exercise- -->
+            <div class="exercise">
+                <div class="question">
+                    ex04: remove button on the card and
+                    ex05: overlay text on card image
+                </div>
+                <div class="card-answer">
+                    <div class="card" style="position: relative;">
+                        <h5>I am heading</h5>
+                        <img src="https://via.placeholder.com/150" class="images" />
+                        <button class="close">X</button>
+                        <p class="card-heading-grow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+                            omnis fugiat quidem
+                            maxime
+                            sunt asperiores ipsum culpa .</p>
+                        <button>Primary button</button>
+                    </div>
+                    <div class="card" style="position: relative;">
+                        <h5>I am heading</h5>
+                        <img src="https://via.placeholder.com/150" class="images" />
+                        <div class="overlay">I am overlay</div>
+                        <p class="card-heading-grow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+                            omnis fugiat quidem
+                            maxime
+                            sunt asperiores ipsum culpa .</p>
+                        <button>Primary button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>

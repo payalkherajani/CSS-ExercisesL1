@@ -1,0 +1,54 @@
+.heading{
+    color: var(--dark-color);
+}
+.superscript{
+    position: relative;
+    top: -10px;
+}
+.notification{
+    position: fixed;
+    bottom: 5px;
+    left: 1rem;
+}
+.modal{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    display: none;
+}
+.answer-position-div{
+    position: absolute;
+}
+.floating-button{
+    position: fixed;
+    bottom: 20px;
+    padding: 10px;
+    right: 20px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    border-radius: 70%;
+    background-color: var(--primary-color);
+}
+.badge{
+ color: white;
+ background-color: black;
+ font-weight: 900;
+ padding: 2px;
+ border-radius: 2px;
+}
+
+.card-answer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 2px;
+}
+.overlay{
+    position: absolute;
+    top: 30px;
+}
